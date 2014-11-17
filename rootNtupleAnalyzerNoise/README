@@ -1,4 +1,36 @@
 
+Disclaimer:
+This package is reproduced from https://github.com/CMSLQ/rootNtupleAnalyzerV2/
+
+---- SLC6 Instructions ----
+cd /afs/cern.ch/user/h/hsaka/HCALwork/CMSSW_7_2_0_pre6/src/
+cmsenv
+crab1
+crab2
+cd /afs/cern.ch/user/h/hsaka/HCALwork/HCALnoise/rootNtupleAnalyzerNoise/
+source /afs/cern.ch/sw/lcg/external/gcc/4.9.1/x86_64-slc6/setup.sh
+make clean
+make
+
+Sample command:
+./scripts/launchAnalysis_batch.pl \
+-i config/inputList_batch_HcalNZS_Run2012B.txt \
+-c config/cutFile_HcalNoise.txt \
+-n ExportTree/HcalNoiseTree \
+-o /afs/cern.ch/user/h/hsaka/public/HCALnoiseOutput/HPDhitsStudy_HcalNZS_Run2012B_V1_noMixing_filtercut10/ \
+-j 133 -q 1nd
+
+
+---- SLC6 Changes ----
+These are changes commited to this version due to lxplus SLC6:
+#
+FILE: scripts/submit_batch.py 
+>>>>    #if "amd64" in os.getenv ("SCRAM_ARCH"): outputfile.write(". /afs/cern.ch/sw/lcg/external/gcc/4.3.2/x86_64-slc5/setup.sh\n")
+>>>>     if "amd64" in os.getenv ("SCRAM_ARCH"): outputfile.write(".  /afs/cern.ch/sw/lcg/external/gcc/4.9.1/x86_64-slc6/setup.sh\n")
+#
+
+---- Old Instructions ----
+
 Introduction:
 -------------
 
