@@ -1,0 +1,2 @@
+root://eoscms//eos/cms/store/user/hsaka/HcalNoise/RootNtuple/V00-04-13364-DATA-Run2012B_HcalNZS_RAW_20141123_222640/HcalNZS__Run2012B-v1__RAW_100_2_zMZ.root
+root://eoscms//eos/cms/store/user/hsaka/HcalNoise/RootNtuple/V00-04-13364-DATA-Run2012B_HcalNZS_RAW_20141123_222640/HcalNZS__Run2012B-v1__RAW_10_1_3I7.root
