@@ -1,0 +1,8 @@
+
+For detailed instructions, see: https://twiki.cern.ch/twiki/bin/view/CMS/ExoticaLeptoquarkShiftMakeRootTuplesV22012
+
+# ------------------------------ ------------------------------ ------------------------------ #
+
+Example: 
+./createJobsWithCrabEOS.pl  -d `pwd`/RootNtuple -v V00-04-13364-DATA-Run2012B_HcalNZS_RAW -i inputList_Run2012B_HcalNZS_RAW.txt -t template_crab_grid_copyToEOS_JSON.cfg -c HCALnoiseNtuplizer.py -n hsaka -u HcalNoise/RootNtuple -j /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions12/8TeV/Reprocessing/Cert_190456-203742_8TeV_22Jan2013ReReco_Collisions12_JSON.txt                  	     	     	     	     	     	     	     	     	     	     	     	     	             
+
