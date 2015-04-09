@@ -10,7 +10,7 @@ To checkout:
 cd <CMSSWrelease>/src/
 mkdir submitJobsWithCrabV2
 cd submitJobsWithCrabV2
-git clone git@github.com:dertexaner/HCALnoise/submitJobsWithCrabV2.git
+git clone git@github.com:dertexaner/HCALnoise.git
 mv HCALnoise/submitJobsWithCrabV2/ .
 rm -rf HCALnoise/
 
